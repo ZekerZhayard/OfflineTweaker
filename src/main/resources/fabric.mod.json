@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "offlinetweaker",
+  "version": "${version}",
+  "name": "OfflineTweaker",
+  "description": "A mod to make WLAN server offline.",
+  "authors": [
+    "xfl03",
+    "ZekerZhayard"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ZekerZhayard/OfflineTweaker",
+    "sources": "https://github.com/ZekerZhayard/OfflineTweaker"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.zekerzhayard.offlinetweaker.fabric.OfflineTweaker"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*"
+  }
+}
